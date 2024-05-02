@@ -1,8 +1,7 @@
 /* Created by: Nathan De Silva
-* Created on: April 2024
+* Created on: May 2024
 * This file contains the CSS for index.html
 */
-
 
 .mdl-ripple {
   background: #000;
@@ -32,10 +31,9 @@
 }
 
 body {
-  background-color: rgb(162, 0, 70);
+  background-color: rgb(255, 0, 191);
 }
 
 img {
-  float: right;
-  margin-top: -10%;
+  float: right
 }
