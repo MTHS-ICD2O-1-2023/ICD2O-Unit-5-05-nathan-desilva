@@ -47,17 +47,17 @@ function myButtonClicked() {
         angleCFormatted == 90
       ) {
         document.getElementById("answer").innerHTML =
-          "This is an right angle triangle."
+          "This is a right angle triangle."
       } else {
         document.getElementById("answer").innerHTML =
-          "This is an scalene triangle."
+          "This is a scalene triangle."
       }
     } else if (
       angleAFormatted == angleBFormatted &&
       angleAFormatted == angleCFormatted
     ) {
       document.getElementById("answer").innerHTML =
-        "This is an equilateral triangle"
+        "This is a equilateral triangle"
     } else {
       if (
         angleAFormatted == 90 ||
@@ -65,7 +65,7 @@ function myButtonClicked() {
         angleCFormatted == 90
       ) {
         document.getElementById("answer").innerHTML =
-          "This is an right angle triangle."
+          "This is a right angle triangle."
       } else {
         document.getElementById("answer").innerHTML =
           "This is an isosceles triangle."
